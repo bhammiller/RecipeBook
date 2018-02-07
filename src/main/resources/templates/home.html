@@ -16,27 +16,24 @@
             background-size: cover;
         }
     </style>
-    <link href="./css/stylesheet.css" rel="stylesheet">
+    <link href="./css/stylesheet.css" rel="stylesheet"/>
 </head>
-<body><nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#">Navbar</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
+<body><nav class="navbar navbar-expand-lg navbar-dark bg-secondary">
+    <a class="navbar-brand mb-0 h1" >Brandon's Recipe Book</a>
 
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-                <a class="nav-link" th:href="@{/tohome}">Homepage <span class="sr-only">(current)</span></a>
+                <a class="nav-link text-dark" th:href="@{/tohome}">Homepage <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" th:href="#">Gallery</a>
+                <a class="nav-link text-dark" th:href="@{/togallery}">Gallery</a>
             </li>
             <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     Recipes
                 </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <div class="dropdown-menu bg-light" aria-labelledby="navbarDropdown">
                     <a class="dropdown-item" th:href="@{/tocrabcakes}">Crab Cakes</a>
                     <a class="dropdown-item" th:href="@{/toinjera}">Injera</a>
                     <a class="dropdown-item" th:href="@{/togulab}">Gulab Jamun</a>
@@ -49,7 +46,41 @@
         </ul>
     </div>
 </nav>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-sm">
 
+        </div>
+        <div class="col-sm">
+            <h1>Welcome to Brandon's Recipe Book of International Wonder</h1>
+        </div>
+        <div class="col-sm">
+
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm">
+
+        </div>
+        <div class="col-sm">
+            <img src="/Images/chef-cat.jpg" alt="Chef cat" style="width:500px;height:500px;"/>
+        </div>
+        <div class="col-sm">
+
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm">
+
+        </div>
+        <div class="col-sm">
+            <h1>Please Visit the Gallery to See Delicious Recipes</h1>
+        </div>
+        <div class="col-sm">
+
+        </div>
+    </div>
+</div>
 
 
 
