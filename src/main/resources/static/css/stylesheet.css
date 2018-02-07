@@ -21,9 +21,13 @@ h2{
     font-family: 'Permanent Marker', cursive;
 }
 img {
-    width: 350px;
-    height: 350px;
+    width: 450px;
+    height: 450px;
 }
 h5{
     font-family: 'Aladin', cursive;
+    font-size: 25px;
+}
+.container-fluid{
+    margin-top: 100px;
 }

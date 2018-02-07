@@ -16,10 +16,10 @@
             background-size: cover;
         }
     </style>
-    <link href="./css/stylesheet.css" rel="stylesheet"/>
+    <link href="/css/stylesheet.css" rel="stylesheet"/>
 </head>
 <body>
-<nav class="navbar navbar-expand-lg navbar-dark bg-secondary">
+<nav class="navbar navbar-expand-lg navbar-dark bg-secondary fixed-top">
     <a class="navbar-brand mb-0 h1" >Brandon's Recipe Book</a>
 
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -40,7 +40,7 @@
                     <a class="dropdown-item" th:href="@{/togulab}">Gulab Jamun</a>
                     <a class="dropdown-item" th:href="@{/tojerk}">Jerk Chicken</a>
                     <a class="dropdown-item" th:href="@{/tobara}">Bara</a>
-                    <a class="dropdown-item" th:href="@{/topumpkin}">Pumpkin Rice Noodles</a>
+                    <a class="dropdown-item disabled" th:href="@{/topumpkin}">Pumpkin Rice Noodles</a>
                     <a class="dropdown-item" th:href="@{/tocroque}">Croque Madame</a>
                 </div>
             </li>
@@ -48,7 +48,7 @@
     </div>
 </nav>
 
-<div class="container-fluid">
+<div class="container-fluid" >
     <!-- Flag Taiwan
     <img src="" alt="" style="width:525px;height:350px;"/>-->
     <!-- Picture -->

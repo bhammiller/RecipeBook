@@ -16,11 +16,13 @@
         background-size: cover;
     }
 
+
 </style>
-<link href="./css/stylesheet.css" rel="stylesheet"/>
+<link href="/css/stylesheet.css" rel="stylesheet"/>
 </head>
+
 <body>
-<nav class="navbar navbar-expand-lg navbar-dark bg-secondary">
+<nav class="navbar navbar-expand-lg navbar-dark bg-secondary fixed-top">
     <a class="navbar-brand mb-0 h1" >Brandon's Recipe Book</a>
 
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -42,7 +44,7 @@
                     <a class="dropdown-item" th:href="@{/tojerk}">Jerk Chicken</a>
                     <a class="dropdown-item" th:href="@{/tobara}">Bara</a>
                     <a class="dropdown-item" th:href="@{/topumpkin}">Pumpkin Rice Noodles</a>
-                    <a class="dropdown-item" th:href="@{/tocroque}">Croque Madame</a>
+                    <a class="dropdown-item disabled" th:href="@{/tocroque}">Croque Madame</a>
                 </div>
             </li>
         </ul>
@@ -53,7 +55,7 @@
     <!-- Flag France
     <img src="" alt="" style="width:525px;height:350px;"/>-->
     <!-- Picture -->
-    <img src="/Images/croquemadame.jpeg" alt="picture of Croque Madame" style="width:350px;height:350px;"/>
+    <img src="/Images/croquemadame.jpg" alt="picture of Croque Madame" style="width:350px;height:350px;"/>
     <!-- Recipe Name -->
     <h1>Croque Madame</h1>
     <!-- Ingredients (Bullets) -->
